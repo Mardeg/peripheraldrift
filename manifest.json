@@ -1,7 +1,7 @@
 {
   "name": "Peripheral Drift",
   "description": "Slideshow for testing motion illusions on cats, dogs, birds, etc.",
-  "start_url": "/",
+  "start_url": "//mardeg.github.io/peripheraldrift/",
   "lang": "en-US",
   "theme_color": "#888888",
   "display": "fullscreen",
