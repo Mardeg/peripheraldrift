@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "schema": "http://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@graph": [
+    {
+      "@id": "https://peripheraldrift.glitch.me/",
+      "schema:DigitalDocumentabout": {
+        "@type": "rdf:langString",
+        "@value": "Slideshow for testing motion illusions on cats, dogs, birds, etc."
+      },
+      "schema:DigitalDocumentdescription": {
+        "@type": "rdf:langString",
+        "@value": "Slideshow for testing motion illusions on cats, dogs, birds, etc."
+      },
+      "schema:DigitalDocumentheadline": {
+        "@type": "rdf:langString",
+        "@value": "Does Your Pet See Peripheral Drift?"
+      },
+      "schema:DigitalDocumenticon": {
+        "@id": "data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjgwIj7wn5i7PC90ZXh0Pjwvc3ZnPg=="
+      },
+      "schema:DigitalDocumentlicense": [
+        {
+          "@id": "https://spdx.org/licenses/AFL-3.0"
+        },
+        {
+          "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "schema:DigitalDocumentnofollow": [
+        {
+          "@id": "https://spdx.org/licenses/AFL-3.0"
+        },
+        {
+          "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "schema:DigitalDocumentpreload": {
+        "@id": "https://peripheraldrift.glitch.me/thumbnails.svg"
+      },
+      "schema:license": [
+        {
+          "@id": "https://spdx.org/licenses/AFL-3.0"
+        },
+        {
+          "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "http://www.w3.org/ns/json-ld#context": {
+        "@id": "https://peripheraldrift.glitch.me/jsonld.json"
+      },
+      "rdfa:usesVocabulary": [
+        {
+          "@id": "schema:DigitalDocument"
+        },
+        {
+          "@id": "http://schema.org/"
+        }
+      ]
+    },
+    {
+      "@id": "https://peripheraldrift.glitch.me/#AudioObject",
+      "@type": "schema:AudioObject",
+      "schema:contentUrl": {
+        "@id": "data:audio/ogg;base64,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"
+      },
+      "schema:transcript": {
+        "@id": "https://peripheraldrift.glitch.me/slides.vtt"
+      }
+    },
+    {
+      "@id": "https://peripheraldrift.glitch.me/#ImageGallery",
+      "@type": "schema:ImageGallery",
+      "schema:mainContentOfPage": {
+        "@type": "rdf:langString",
+        "@value": "Rollers"
+      }
+    },
+    {
+      "@id": "https://peripheraldrift.glitch.me/#SiteNavigationElement",
+      "@type": "schema:SiteNavigationElement",
+      "schema:thumbnail": {
+        "@id": "https://peripheraldrift.glitch.me/thumbnails.svg"
+      },
+      "schema:thumbnailUrl": [
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i1"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i2"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i3"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i4"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i5"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i6"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i7"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i8"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i9"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i10"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i11"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i12"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i13"
+        },
+        {
+          "@id": "https://peripheraldrift.glitch.me/thumbnails.svg#i14"
+        }
+      ]
+    },
+    {
+      "@id": "https://peripheraldrift.glitch.me/slides.vtt",
+      "@type": "schema:Text"
+    },
+    {
+      "@id": "https://peripheraldrift.glitch.me/thumbnailSMIL.svg",
+      "@type": "schema:ImageObject"
+    }
+  ]
+}
+
+
