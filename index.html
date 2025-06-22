@@ -83,8 +83,7 @@ function getSlide(t,y) {
 	f = v.previousElementSibling,
 	h = y?t.track.cues.getCueById(y):t.track.activeCues[0],
 	c = JSON.parse(h.text);
-	if(!("MozAppearance" in document.documentElement.style))v.poster = c.at;
-	else v.poster = "thumbnails.svg#i" + h.id;
+	v.poster = "thumbnails.svg#i" + h.id;
 	f.textContent = c.aption;
 	v.playbackRate = Number(document.querySelector('select').value);
 }
