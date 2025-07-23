@@ -105,10 +105,10 @@ document.onreadystatechange = () => {
   if(document.readyState === "interactive") {
     document.getElementById("f").style.display = "block";
     let temptwo = document.getElementById("speed"),
-    temptwoContent = temptwo.content;
+    temptwoContent = temptwo.content,
+    areas = document.querySelectorAll("area");
     document.body.appendChild(temptwoContent);
     document.querySelector("video").addEventListener("fullscreenchange",(e) => {e.currentTarget.removeAttribute("title")},{once:true});
-    let areas = document.querySelectorAll("area");
     for (let i = 0; i < 14; i++) {
       areas[i].href = "javascript:void(skipTo(" + i + "))";
       areas[i].removeAttribute("target");
