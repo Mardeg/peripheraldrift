@@ -19,6 +19,7 @@
 main {display:grid;margin:0 auto;align-items:center;width:fit-content;grid-template: repeat(5, 1fr) / repeat(3, 1fr)}
 header,figcaption {font-variant:small-caps;text-align:center;font-size:xx-large;font-family:"C64 Pro"}
 a[style] {display:inline-block;width:384px;height:272px;background:no-repeat var(--vg);font-size:18pt}
+figcaption:has(+ a[style]:hover),figure:focus-within > figcaption {color:#4D44FF}
 h1:hover + img,h1:focus-within + img {opacity:1}
 img {image-rendering:pixelated;pointer-events:none;position:absolute;width:960px;height:600px;left:50%;transform:translateX(-50%);transition:opacity 0.3s;opacity:0}
 </style><script>
@@ -234,4 +235,5 @@ copy/use without permission/attribution</title>
 <line x1="154" y1="49" x2="174" y2="12" stroke="#000000" stroke-width="6"/>
 <text fill="#FFFFFF" x="138" y="83" style="font-family:Arial,sans-serif;font-size:19px;font-weight:bold">ZERO</text>
 </a></svg></footer></body></html>
+
 
