@@ -23,8 +23,8 @@ a[style] {display:inline-block;width:384px;height:272px;background:no-repeat var
 // @license magnet:?xt=urn:btih:90dc5c0be029de84e523b9b3922520e79e0e6f08&dn=cc0.txt
 document.onreadystatechange = () => {if(document.readyState === "interactive") {
 	let v = document.querySelector('a[href$="doc="]');
-	console.log("href is " + v.href);
-	v.href = v.href + location.href;
+	console.log("href is " + v.getAttribute("href"));
+	v.setAttribute("href",v.getAttribute("href") + location.href);
   }
 }
 // @license-end
@@ -232,6 +232,7 @@ copy/use without permission/attribution</title>
 <line x1="154" y1="49" x2="174" y2="12" stroke="#000000" stroke-width="6"/>
 <text fill="#FFFFFF" x="138" y="83" style="font-family:Arial,sans-serif;font-size:19px;font-weight:bold">ZERO</text>
 </a></svg></footer></body></html>
+
 
 
 
